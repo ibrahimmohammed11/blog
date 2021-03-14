@@ -1,0 +1,427 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
+*
+{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    font-family: 'Ubuntu', sans-serif;
+    background-color: #f5f5f5;
+}
+/*--------------------header------------------------------  */
+.header
+{
+    background-image: url(../images/pexels-karolina-grabowska-4397899.jpg);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    color: #fff;
+}
+.nave
+{
+    background-color: rgba(0,0,0,.1);   
+}
+.navbar-brand
+{
+    letter-spacing: 1px;
+    font-size: 27px;
+}
+.wel
+{
+    letter-spacing: 2px;
+}
+.h11
+{
+    font-size: 50px;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+    color: #a79344;
+
+}
+.color1 {
+    color: #a79344;
+  }
+/*--------------------header------------------------------  */
+/*--------------------about------------------------------  */
+
+.about
+{
+    background-color: #FFFFFF;
+}
+.demo1
+{
+    position: relative;
+}
+.demo1::before
+{
+    content: "";
+    background-color: #0078ff;
+    position: absolute;
+    bottom: -10px;
+    left:0;
+    width: 100px;
+    height: 4px;  
+}
+.about-p
+{
+    font-size: 1.25rem;
+    font-weight: 300;
+}
+/*--------------------about------------------------------  */
+
+/*--------------------services------------------------------  */
+
+.demo22
+{
+   width: 40px;
+   height: 4px;
+   background-color: #0078ff;
+}
+.h12
+{
+    font-size: 3rem;
+}
+.iconss
+{
+    padding: 25px;
+    border-radius: 50%;
+    border: 10px solid #0078ff;
+    transition: all .5s;
+}
+.iconss:hover
+{
+    border: 10px solid #f5f5f5;
+    background-color:#0078ff;
+    color: white;
+}
+.iconsss
+{
+    width: 125px;
+    padding: 25px;
+    border-radius: 50%;
+    border: 10px solid #0078ff;
+    transition: all .5s;
+}
+.iconsss:hover
+{
+    border: 10px solid #f5f5f5;
+    background-color:#0078ff;
+    color: white;
+}
+.aboutt
+{
+    background-color: #fff;
+    padding: 2.5rem 1.3rem;
+    border-radius: 16px;
+    margin-bottom: 25px;
+}
+/*--------------------services------------------------------  */
+
+/*--------------------count------------------------------  */
+.bluebg
+{
+    background-image: url(../images/counters-bg.jpg);
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    height: 65vh;
+    position: relative;
+}
+.bluepp
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #0078ff;
+    opacity: 0.7;
+}
+.ico
+{
+    padding: 15px;
+    border-radius: 50%;
+    border: 10px solid #CDE1F8 ;
+}
+.p13
+{
+    font-size: 2rem;
+}
+/*--------------------count------------------------------  */
+
+/*--------------------works------------------------------  */
+.card
+{
+    transition: all 1s;
+}
+.iii
+{
+    transition: all 1s;
+}
+.i
+{
+    overflow: hidden;
+    width: 100%;
+    margin-bottom: 30px;
+}
+.iii:hover 
+{
+    transform: scale(1.4);
+}
+/*--------------------works------------------------------  */
+
+/*--------------------carousel------------------------------  */
+.bluebgg
+{
+    background-image: url(../images/overlay-bg.jpg);
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    height: 85vh;
+    position: relative;
+}
+.blueppp
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #0078ff;
+    opacity: 0.7;
+}
+.icoo
+{
+    padding: 10px;
+    border-radius: 50%;
+    color: #0078ff;
+    background-color: white;
+    margin: 30px 0;
+}
+
+.p15
+{
+    font-weight: 300;
+    font-size: 20px;
+}
+.carousel-indicators .li2
+{
+    height: 7px;
+    width: 20px;
+    background-color:black;
+}
+.carousel-indicators .li1
+{
+    height: 7px;
+    width: 20px;
+}
+/*--------------------carousel------------------------------  */
+
+/*--------------------blog------------------------------  */
+.imgfoot
+{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+.hov:hover
+{
+    color: #0078ff;
+}
+.hov
+{
+    cursor: pointer;
+    position: relative;
+}
+.hov1:hover
+{
+    color: #0078ff;
+}
+.travel
+{
+    position: relative;
+    cursor: pointer;
+}
+.travel:hover
+{
+    color: #0078ff;
+}
+.travel::after
+{
+    content: "travel";
+    color: white;
+    text-transform: uppercase;
+    font-size: 13px;
+    background-color:  #0078ff;
+    border-radius: 5px;
+    position: absolute;
+    top: -50%;
+    left: 50%;
+    transform: translate(-50%,-70%);
+    width: 70px;
+    height: 30px;
+    text-align: center;
+    padding: 5px 5px 0 5px;
+}
+.webd
+{
+    position: relative;
+    cursor: pointer;
+}
+.webd:hover
+{
+    color: #0078ff;
+}
+.webd::after
+{
+    content: "web desgin";
+    color: white;
+    text-transform: uppercase;
+    font-size: 13px;
+    background-color:  #0078ff;
+    border-radius: 5px;
+    position: absolute;
+    top: -50%;
+    left: 50%;
+    transform: translate(-50%,-70%);
+    width: 90px;
+    height: 30px;
+    text-align: center;
+    padding: 5px;
+}
+/*--------------------blog------------------------------  */
+
+/*--------------------contact------------------------------  */
+
+.getin
+{
+    color:  #0078ff;
+}
+.p22
+{
+    font-size: 1.25rem;
+    font-weight: 300;
+}
+.face
+{
+
+    padding: 12px;
+    border-radius: 50%;
+    border: 3px solid #0078ff;
+    transition: all .5s;
+}
+.face:hover
+{
+    border: 3px solid #f5f5f5;
+    background-color:#0078ff;
+    color: white;
+} 
+.inst
+{
+
+    padding: 11.5px;
+    border-radius: 50%;
+    border: 3px solid #0078ff;
+    transition: all .5s;
+}
+.inst:hover
+{
+    border: 3px solid #f5f5f5;
+    background-color:#0078ff;
+    color: white;
+} 
+.foot
+{
+background-color: #0062d3;
+}
+.uline{
+    transition: all .5s;
+}
+.uline:hover
+{    
+    border-bottom: white 2px solid;
+}
+/*--------------------contact------------------------------  */
+/*--------------------gotopbtn------------------------------  */
+.gotopbtn
+{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 999999999999999;
+    color: #fff;
+    background-color:#0078ff ;
+    padding: 10px;
+}
+/*--------------------gotopbtn------------------------------  */
+/*--------------------loading------------------------------  */
+#loading{
+    width: 100%;
+    height: 100vh;
+    background-color: #DCE1E3;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999999999999;
+}
+.sk-cube-grid {
+    width: 70px;
+    height: 70px;
+    margin: 300px auto;
+  }
+  
+  .sk-cube-grid .sk-cube {
+    width: 33%;
+    height: 33%;
+    background-color: #0078ff;
+    float: left;
+    -webkit-animation: sk-cubeGridScaleDelay 1.3s infinite ease-in-out;
+            animation: sk-cubeGridScaleDelay 1.3s infinite ease-in-out; 
+  }
+  .sk-cube-grid .sk-cube1 {
+    -webkit-animation-delay: 0.2s;
+            animation-delay: 0.2s; }
+  .sk-cube-grid .sk-cube2 {
+    -webkit-animation-delay: 0.3s;
+            animation-delay: 0.3s; }
+  .sk-cube-grid .sk-cube3 {
+    -webkit-animation-delay: 0.4s;
+            animation-delay: 0.4s; }
+  .sk-cube-grid .sk-cube4 {
+    -webkit-animation-delay: 0.1s;
+            animation-delay: 0.1s; }
+  .sk-cube-grid .sk-cube5 {
+    -webkit-animation-delay: 0.2s;
+            animation-delay: 0.2s; }
+  .sk-cube-grid .sk-cube6 {
+    -webkit-animation-delay: 0.3s;
+            animation-delay: 0.3s; }
+  .sk-cube-grid .sk-cube7 {
+    -webkit-animation-delay: 0s;
+            animation-delay: 0s; }
+  .sk-cube-grid .sk-cube8 {
+    -webkit-animation-delay: 0.1s;
+            animation-delay: 0.1s; }
+  .sk-cube-grid .sk-cube9 {
+    -webkit-animation-delay: 0.2s;
+            animation-delay: 0.2s; }
+  
+  @-webkit-keyframes sk-cubeGridScaleDelay {
+    0%, 70%, 100% {
+      -webkit-transform: scale3D(1, 1, 1);
+              transform: scale3D(1, 1, 1);
+    } 35% {
+      -webkit-transform: scale3D(0, 0, 1);
+              transform: scale3D(0, 0, 1); 
+    }
+  }
+  
+  @keyframes sk-cubeGridScaleDelay {
+    0%, 70%, 100% {
+      -webkit-transform: scale3D(1, 1, 1);
+              transform: scale3D(1, 1, 1);
+    } 35% {
+      -webkit-transform: scale3D(0, 0, 1);
+              transform: scale3D(0, 0, 1);
+    } 
+  }
+/*--------------------loading------------------------------  */
